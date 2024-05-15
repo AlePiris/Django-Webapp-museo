@@ -1,0 +1,21 @@
+{%  extends "museoap/base.html" %}
+
+{% load static %}
+{% block content %}
+   <div class="formulario">
+      {% if "valido" in request.GET%}
+         <p style = "color : white">Información enviada correctamente, gracias</p>
+      {% endif %}
+
+      <form action="" method="POST" style="text-align: center;" class="flex-form">
+          {% csrf_token %} 
+         
+         <table class = "tabla" style = "color: white; margin: 20px auto;"> {{miFormulario.as_table}}<table/>
+         <input class = "input" type="submit" value="Enviar">
+      </form>
+
+   <div/>
+
+
+
+{% endblock %}
