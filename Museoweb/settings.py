@@ -138,5 +138,3 @@ EMAIL_USE_TLS=True
 EMAIL_PORT=587
 EMAIL_HOTS_USER="pirisalejandro494@gmail.com"
 EMAIL_HOST_PASSWORD=""
-#bxbmgscpieckgapd
-#ocbdasltganwkkgi
